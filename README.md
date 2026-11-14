@@ -1,6 +1,6 @@
 # Who Counts as What?
 
-An interactive history of the race question on the U.S. census, from 1790 to the proposal to drop it from the 2030 census. By Gwen Sharp, as a companion to Chapter 7 (Race and Ethnicity) of *A Sociology Experiment*.
+An interactive history of the race question on the U.S. census, from 1790 to the proposal to drop it from the 2030 census. By Gwen Sharp.
 
 **Live site:** https://gsharpokie.github.io/whocountsaswhat/
 
