@@ -113,6 +113,13 @@ footer { font-size: .85rem; color: var(--muted); }
   .year { font-size: 2.5rem; }
   .trail li { grid-template-columns: 3.4rem 1fr; gap: .6rem; }
 }
+
+/* Let long links (like the citation URL) wrap on narrow phones instead of widening the page. */
+a { overflow-wrap: anywhere; }
+.years { min-width: 0; max-width: 100%; }
+
+/* Main landmark for screen readers; keeps the same spacing as before. */
+.wrap-main { display: grid; gap: inherit; min-width: 0; }
 </style>
 </head>
 <body>
@@ -122,6 +129,7 @@ footer { font-size: .85rem; color: var(--muted); }
     <h1>Who Counts as What?</h1>
     <p class="lede">Every U.S. census since 1790 has asked about race, and the choices have changed almost every time. Click through the years to see what the categories were, who got to decide, and why they changed. If race were a fixed, biological fact, the boxes wouldn’t keep moving.</p>
   </header>
+  <main class="wrap-main">
 
   <section aria-labelledby="tl">
     <h2 id="tl">The census, year by year</h2>
@@ -179,6 +187,7 @@ footer { font-size: .85rem; color: var(--muted); }
     <p>Spot an error? <a href="https://github.com/gsharpokie/whocountsaswhat/issues/new">Suggest a correction</a> (needs a free GitHub account).</p>
   </section>
 
+  </main>
   <footer>Created by Gwen Sharp (<a href="https://x.com/gsharpokie">@gsharpokie</a>). Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.</footer>
 </div>
 
