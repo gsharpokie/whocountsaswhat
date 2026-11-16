@@ -50,6 +50,17 @@ The page’s “Suggest a correction” link opens a new issue in this repositor
 
 Full links are on the page.
 
+## Accessibility
+
+This site aims to meet [WCAG 2.1](https://www.w3.org/TR/WCAG21/) Level AA, so it works for people who use screen readers, keyboards, or screen magnification.
+
+- All buttons, sliders, and links can be reached and used with a keyboard, and show a visible outline when selected.
+- Everything on the page is text, including the census categories for each year.
+- Text meets WCAG AA color contrast standards.
+- Pages fit narrow phone screens without sideways scrolling.
+
+I checked it in November 2026 with automated accessibility testing (axe-core) plus keyboard and small-screen checks. It hasn’t yet been tested by people who use screen readers every day, so there may be problems I haven’t caught. If something doesn’t work for you, please [let me know](https://github.com/gsharpokie/whocountsaswhat/issues/new).
+
 ## Author
 
 Created by Gwen Sharp ([@gsharpokie](https://x.com/gsharpokie)).
